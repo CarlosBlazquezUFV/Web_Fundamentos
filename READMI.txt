@@ -1,1 +1,33 @@
 Pagina web de fundamentos de Carlos Blázquez Puch
+
+Estructura de archivos
+Web_fundamentod
+|   docs
+|   |   css
+|   |   |   css.css
+|   |   images
+|   |   |   imagen1.jpg
+|   |   |   imagen2.jpg
+|   |   public
+|   |   |   about.html
+|   |   |   contac.html
+|   |   |   degree.html
+|   |   |   fii.html
+|   |   |   net.html
+|   |   |   topic.html
+|   |   index.html
+|   README.txt
+
+about.html completamente terminado
+contac.html encabezaro realizado
+degree.html encabezaro realizado
+fii.html encabezaro realizado
+net.html encabezaro realizado
+topic.html encabezaro realizado
+
+css.css estilos por defecto para todos los archivos
+
+imagen1.jpg agregada
+imagen2.jpg agregada
+
+README actualizdo
