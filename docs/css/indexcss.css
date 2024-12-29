@@ -1,0 +1,75 @@
+/* Estilo general */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #1b1b1b, #2a2a2a);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: #e3e3e3;
+}
+
+/* Encabezado */
+header {
+    position: absolute;
+    top: 20px;
+    text-align: center;
+    width: 100%;
+}
+
+header h1 {
+    font-size: 2.5em;
+    color: #ff0000;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin: 0;
+}
+
+/* Navegación */
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+nav ul li {
+    text-align: center;
+}
+
+nav ul li a {
+    display: block;
+    padding: 20px 40px;
+    background: linear-gradient(135deg, #ff0000, #cc0000);
+    color: white;
+    font-size: 1.5em;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+    border-radius: 15px;
+    transition: transform 0.3s ease, background 0.3s ease;
+    box-shadow: 0 5px 15px rgba(255, 0, 0, 0.5);
+}
+
+/* Animaciones */
+nav ul li a:hover {
+    transform: scale(1.1);
+    background: linear-gradient(135deg, #ff3333, #cc2222);
+    box-shadow: 0 10px 25px rgba(255, 50, 50, 0.8);
+}
+
+/* Adaptabilidad para pantallas pequeñas */
+@media (max-width: 768px) {
+    nav ul {
+        grid-template-columns: 1fr;
+        gap: 15px;
+    }
+
+    nav ul li a {
+        font-size: 1.2em;
+        padding: 15px 30px;
+    }
+}
