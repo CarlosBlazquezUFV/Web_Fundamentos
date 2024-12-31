@@ -213,3 +213,33 @@ form button:hover {
   ::-webkit-scrollbar-corner {
     background-color: #1b1b1b;
   }
+  /* Estilo para los botones dentro del main */
+main button {
+    background-color: #ff0000; /* Rojo Ferrari */
+    color: white;
+    border: 2px solid #cc0000;
+    border-radius: 10px;
+    padding: 10px 20px;
+    font-size: 1.2em;
+    text-transform: uppercase;
+    font-weight: bold;
+    cursor: pointer;
+    transition: transform 0.3s ease, background-color 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0 5px 15px rgba(255, 0, 0, 0.4);
+}
+
+main button:hover {
+    background-color: #cc0000; /* Más oscuro en hover */
+    transform: scale(1.1); /* Ampliación al pasar el cursor */
+    box-shadow: 0 8px 20px rgba(255, 0, 0, 0.6);
+}
+
+main button:active {
+    transform: scale(1); /* Restablece el tamaño al hacer clic */
+    box-shadow: 0 3px 10px rgba(255, 0, 0, 0.4);
+}
+
+main a button {
+    text-decoration: none;
+    display: inline-block;
+}
